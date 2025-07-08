@@ -2,73 +2,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>SpyBee | Micro Drone Surveillance</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpyBee | Bee-sized Surveillance Drone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1581091012184-5c4eabf9f24b') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 150px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    iframe {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="overlay">
-            <h1>SpyBee</h1>
-            <p>World’s Smallest Surveillance Drone</p>
-            <p class="tagline">Trusted by agencies. Powered by AI. Valued at $1 Billion.</p>
-        </div>
-    </header>
+  <header>
+    <h1>SpyBee</h1>
+    <p>The world’s smallest surveillance drone</p>
+  </header>
 
-    <nav class="navbar">
-        <a href="#about">About</a>
-        <a href="#technology">Technology</a>
-        <a href="#customers">Customers</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <section class="container text-center">
+    <h2>What is SpyBee?</h2>
+    <p>SpyBee is an AI-powered bee-sized drone designed for high-precision surveillance and anti-terror operations.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Robobee.jpg/800px-Robobee.jpg" class="img-fluid rounded" alt="Bee drone" />
+  </section>
 
-    <section id="about" class="section">
-        <h2>About SpyBee</h2>
-        <p>SpyBee is redefining surveillance with insect-sized drones equipped with cutting-edge sensors and real-time data transmission. Designed for anti-terrorism, law enforcement, and intelligence operations.</p>
-        <p><strong>Founded:</strong> 2023 | <strong>Headquarters:</strong> Palo Alto, CA | <strong>Valuation:</strong> $1 Billion</p>
-    </section>
+  <section class="bg-light text-center">
+    <div class="container">
+      <h2>See SpyBee in Action</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zXzM_MqG3ek" title="SpyBee drone demo" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
 
-    <section id="technology" class="section alt">
-        <h2>Breakthrough Technology</h2>
-        <ul>
-            <li>🧠 AI-Powered Navigation</li>
-            <li>🔍 Nano-HD Camera with Night Vision</li>
-            <li>📡 Real-time Encrypted Data Transmission</li>
-            <li>🕵️ Insect-like Acoustic and Visual Signature</li>
-        </ul>
-    </section>
+  <section class="container text-center">
+    <h2>Why Choose SpyBee?</h2>
+    <ul class="list-unstyled">
+      <li>🕵️ Unmatched stealth surveillance</li>
+      <li>📡 Real-time transmission with end-to-end encryption</li>
+      <li>🧠 AI-based decision making</li>
+      <li>🛡️ Military-grade durability and operability</li>
+    </ul>
+  </section>
 
-    <section id="customers" class="section">
-        <h2>Our Customers</h2>
-        <div class="customers">
-            <div class="customer">
-                <img src="assets/img/cia.png" alt="CIA">
-                <p>Central Intelligence Agency</p>
-            </div>
-            <div class="customer">
-                <img src="assets/img/raw.png" alt="RAW">
-                <p>Research & Analysis Wing</p>
-            </div>
-            <div class="customer">
-                <img src="assets/img/mi6.png" alt="MI6">
-                <p>UK Intelligence (MI6)</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section alt">
-        <h2>Contact Us</h2>
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="_replyto" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 SpyBee Technologies. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 SpyBee Technologies</p>
+  </footer>
 </body>
 </html>
